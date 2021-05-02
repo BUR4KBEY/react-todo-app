@@ -2,11 +2,7 @@ import { ITodo, ITodoService } from '../utils/interfaces';
 import { useState } from 'react';
 
 const TodoService = (): ITodoService => {
-    const [todos, setTodos] = useState([
-        { id: 1, text: "Finish the project", description: "helo", completed: false },
-        { id: 2, text: "Add new todos", description: "sjsjsjjs", completed: false },
-        { id: 3, text: "Add the button", description: "lmao", completed: true }
-    ] as ITodo[]);
+    const [todos, setTodos] = useState([] as ITodo[]);
 
     const [addFormStatus, setAddFormStatus] = useState(false);
 
