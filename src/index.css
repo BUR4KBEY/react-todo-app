@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #161616;
+  color: #fafafa;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: cornflowerblue;
+  color: #fafafa;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.todo {
+  background: rgb(68, 68, 68);
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 1rem;
+}
+
+.todo.finished {
+  border-bottom: 5px solid yellowgreen;
+}
+
+.todo h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fafafa;
+}
+
+.todo p {
+  color: #c5c2c2;
+}
+
+.todo div {
+  display: flex;
+  justify-content: flex-end;
+  font-size: large;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.todo-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+  color: #fafafa;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+div.notodo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+div.notodo h1 {
+  color: rgb(175, 175, 175);
+}
+
+div.notodo p {
+  color: cornflowerblue;
+  font-size: 1rem;
+  font-weight: bold;
+}
