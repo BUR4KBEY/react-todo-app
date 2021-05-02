@@ -1,6 +1,6 @@
 # Todo App
 Simple todo app made with **React** and **TypeScript**.<br><br>
-[**Click here for see the original version of the project.**](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
+[**Click here for see the original version of the project.**](https://github.com/bradtraversy/react-crash-2021)
 
 ## Installation
 ```
